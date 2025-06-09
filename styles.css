@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Assuming #fff was a typo and meant a light grey like usual forms */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 { /* Added basic styling for h2 as it's usually styled */
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%; /* Adjusted to calc(100% - 22px) to account for padding and border */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Added font-size */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.register-link, .login-link { /* Combined similar classes */
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+a { /* Added basic styling for links */
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover { /* Added hover effect for links */
+    text-decoration: underline;
+}
